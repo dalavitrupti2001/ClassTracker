@@ -1,0 +1,23 @@
+2024-08-26 15:34:19.677  INFO 3772 --- [restartedMain] com.jbk.ClassTrackerApplication          : Starting ClassTrackerApplication using Java 17.0.1 on DESKTOP-4G1RSSO with PID 3772 (C:\Users\DELL\eclipse-workspace\ClassTracker\target\classes started by DELL in C:\Users\DELL\eclipse-workspace\ClassTracker)
+2024-08-26 15:34:19.677  INFO 3772 --- [restartedMain] com.jbk.ClassTrackerApplication          : No active profile set, falling back to default profiles: default
+2024-08-26 15:34:20.073  INFO 3772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-26 15:34:20.086  INFO 3772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-08-26 15:34:20.265  INFO 3772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-26 15:34:20.265  INFO 3772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26 15:34:20.266  INFO 3772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2024-08-26 15:34:20.293  INFO 3772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26 15:34:20.293  INFO 3772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2024-08-26 15:34:20.350  INFO 3772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-26 15:34:20.359  INFO 3772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-26 15:34:20.383  INFO 3772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-26 15:34:20.384  INFO 3772 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-26 15:34:20.541  INFO 3772 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-26 15:34:20.542  INFO 3772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26 15:34:20.635  WARN 3772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-26 15:34:20.796  INFO 3772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-26 15:34:20.808  INFO 3772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-26 15:34:20.815  INFO 3772 --- [restartedMain] com.jbk.ClassTrackerApplication          : Started ClassTrackerApplication in 1.209 seconds (JVM running for 8757.92)
+2024-08-26 15:34:20.819  INFO 3772 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-26 15:35:04.878  INFO 3772 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-26 15:35:04.880  INFO 3772 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-26 15:35:04.886  INFO 3772 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
